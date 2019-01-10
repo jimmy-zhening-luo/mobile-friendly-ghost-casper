@@ -426,15 +426,6 @@ body{
     display:-ms-flexbox;
     display:flex;
     /* overflow-y:hidden; */ /*new*/
-	/* new */
-    -ms-flex-pack:justify;
-    justify-content:center;
-    -ms-flex-align:center;
-    align-items:center;
-    -ms-flex-wrap:wrap;
-    flex-wrap:wrap;
-	/* endnew */
-	
 }
 .site-nav-left{
     -ms-flex-align:center;
@@ -446,6 +437,14 @@ body{
     white-space:nowrap;
     -webkit-overflow-scrolling:touch;
     -ms-overflow-scrolling:touch
+	/* new */
+    -ms-flex-pack:justify;
+    justify-content:center;
+    -ms-flex-align:center;
+    align-items:center;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+	/* endnew */
 }
 .site-nav-logo{
     -ms-flex-negative:0;
