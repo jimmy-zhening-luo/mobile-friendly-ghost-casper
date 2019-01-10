@@ -1,5 +1,5 @@
 # mobile-friendly-ghost-casper-2.0.2
-Modified Casper 2.0.2 theme for Ghost 1.16 to fix issue where menus are cut off when viewing a site on small screens (e.g. mobile devices). Small fix to theme .css that works across all Ghost page types. Works on all supported browsers/devices.
+Modified, mobile-friedly Casper 2.0.2 theme for Ghost 1.16 to fix issue where menus are cut off when viewing a site on small screens (e.g. mobile devices). Small fix to theme .css that works across all Ghost page types. Works on all supported browsers/devices.
 
 ## Replace your existing theme with Friendly Ghost Casper
 ### Download required project files
