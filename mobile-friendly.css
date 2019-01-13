@@ -1,0 +1,56 @@
+/* Instructions: Copy & paste the below code at the end of assets/built/screen.css. */
+/* Optionally re-minify the .css before saving. Online minifier: https://www.cleancss.com/css-minify/ */
+
+/** BEGIN MOBILE-FRIENDLY MENU CODE **/
+.site-nav{
+	-ms-flex-pack:justify !important;
+	justify-content:space-between !important;
+	-ms-flex-align:start !important;
+	align-items:flex-start !important;
+	height:auto !important;
+	flex-wrap:wrap !important;
+	overflow-y:auto !important;
+}
+
+.site-nav-left{
+	width:auto !important;
+	margin-right:10px !important;
+	padding-bottom:0px !important;
+	-ms-flex-pack:justify !important;
+	justify-content:center !important;
+	-ms-flex-align:center !important;
+	align-items:center !important;
+	-ms-flex-wrap:wrap !important;
+	flex-wrap:wrap !important;
+	overflow-x:visible !important;
+	overflow-y:auto !important;
+}
+
+.nav{
+	-ms-flex-pack:justify !important;
+	justify-content:center !important;
+	-ms-flex-align:center !important;
+	align-items:center !important;
+	-ms-flex-wrap:wrap !important;
+	flex-wrap:wrap !important;
+	max-width: none !important;
+}
+
+
+@media (max-width:700px){
+	.site-nav{
+	justify-content:center !important;
+	-ms-flex-align:center !important;
+	align-items:center !important;
+	}
+	.nav{
+		margin:0 0 0 0 !important;
+	}
+}
+
+@media (max-width:960px){
+	.page-template .site-nav-right{
+		display:none !important;
+	}
+}
+/** END MOBILE-FRIENDLY MENU CODE **/
