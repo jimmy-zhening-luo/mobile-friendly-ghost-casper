@@ -1,9 +1,10 @@
-# mobile-friendly-ghost-casper-2.0.2
-Modified, mobile-friedly Casper 2.0.2 theme for Ghost 1.16 to fix issue where the navigation menu bar is cut off when viewing a site on small screens (e.g. mobile devices). Small fix to theme .css that works across all Ghost page types. Now, when the screen is smaller, the navbar wraps around to a second line and centers itself, rather than cutting off. Works on all supported browsers/devices, scales smoothly for all possible width ranges (tested from 200px to 2400px wide).
+# mobile-friendly-ghost-casper
+Modified, mobile-friedly Casper theme for Ghost to fix issue where the navigation menu bar is cut off when viewing a site on small screens (e.g. mobile devices). Small fix to theme .css that works across all Ghost page types. Now, when the screen is smaller, the navbar wraps around to a second line and centers itself, rather than cutting off. Works on all supported browsers/devices, scales smoothly for all possible width ranges (tested from 200px to 2400px wide).
 
 ## Replace your existing theme with Friendly Ghost Casper
 ### Download required project files
-1. Download original, unmodified Casper 2.0.2 theme here: https://github.com/TryGhost/Casper/releases/tag/2.0.2
+1. Download original, unmodified Casper theme here:
+a. https://github.com/TryGhost/Casper/releases/tag/2.0.2
 2. Download screen.css and minified.screen.css from this repository.
 
 ### Modify default Casper theme to be friendly
@@ -19,6 +20,3 @@ Modified, mobile-friedly Casper 2.0.2 theme for Ghost 1.16 to fix issue where th
 2. Go to site's Ghost admin panel -> Settings -> Design -> Installed Themes -> "Upload a theme".
 3. Select the modified Casper-2.0.2.zip
 4. Click "Activate Now" to apply the new theme to site immediately.
-
-## Keep your more up-to-date Casper theme (e.g. Casper 2.8.1 as of 1/7/2019), but make it friendly.
-Instructions TBD.
